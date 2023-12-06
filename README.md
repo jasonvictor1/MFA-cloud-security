@@ -1,49 +1,52 @@
-# Azure Multi-Factor Authentication (MFA) Setup Guide
+# Azure Multi-Factor Authentication (MFA) Setup Guide - Microsoft Entra ID Users
 
-This guide provides step-by-step instructions on how to set up Multi-Factor Authentication (MFA) for your Azure account and for individual Azure Active Directory users.
+This guide provides step-by-step instructions on how to set up Multi-Factor Authentication (MFA) for your Azure account and for individual Microsoft Entra ID users.
 
-## Setting Up MFA for the Primary Azure Account
+## Setting Up MFA for the Primary Azure Account and Microsoft Entra ID Users
 
 1. **Navigate to the Azure Portal**
    - Open your web browser and go to the [Azure Portal](https://portal.azure.com).
    - Sign in with your Azure account credentials.
 
-   ![Azure Portal Home](path-to-your-screenshot)
+   <img src="https://github.com/jasonvictor1/MFA-cloud-security/blob/main/screenshots/Azure%20sign%20in.png" width="50%" />
 
-2. **Access Azure Active Directory**
-   - In the Azure portal, search for "Azure Active Directory" or find it within the list of services.
+2. **Access Microsoft Entra ID**
+   - In the Azure portal, search for "Microsoft Entra ID" or find it within the list of services.
 
-   ![Azure Active Directory](path-to-Go-to-the-Azure-Active-Directory.png)
+   <img src="https://github.com/jasonvictor1/MFA-cloud-security/blob/main/screenshots/Go%20to%20the%20Azure%20Active%20Directory.png" width="50%" />
 
-3. **Enable Multi-Factor Authentication**
-   - Within the Azure Active Directory section, select "Multi-Factor Authentication".
+3. **Select Users**
+   - Within the Microsoft Entra ID section, click on "Users". 
 
-   ![Multi-Factor Authentication](path-to-navigate-to-‘Multi-Factor-Authentication’.png)
+   <img src="https://github.com/jasonvictor1/MFA-cloud-security/blob/main/screenshots/Within%20Azure%20Active%20Directory%2C%20select%20'Users'.png" width="50%" />
 
-4. **Configure MFA Settings**
-   - Follow the on-screen setup instructions to enable MFA for your account.
-   - Capture screenshots of each step as you proceed.
+4. **Access User MFA settings**
+   - Navigate to their "Multi-Factor Authentication" settings.
 
-   ![MFA Configuration](path-to-the-screenshot-of-configuration-steps)
+   <img src="https://github.com/jasonvictor1/MFA-cloud-security/blob/main/screenshots/navigate%20to%20their%20'Multi-Factor%20Authentication'%20.png" width="50%" />
 
-## Setting Up MFA for Azure Active Directory Users
+5. **Access a Specific User's MFA settings**
+   - Choose a user from the list
 
-1. **Select Users and MFA Settings**
-   - Within the Azure Active Directory section, click on "Users". Choose a user from the list and navigate to their "Multi-Factor Authentication" settings.
+   <img src="https://github.com/jasonvictor1/MFA-cloud-security/blob/main/screenshots/select%20user%20and%20enable%20MFA%20for%20the%20user.png" width="50%" />
 
-   ![Users Section](path-to-Within-Azure-Active-Directory-select-'Users'.png)
+6. **Enable Multi-Factor Authentication**
+   - Within the Microsoft Entra ID section, select "Multi-Factor Authentication".
 
-2. **Enable MFA for the User**
-   - Follow the prompts to enable MFA for the selected user.
+   <img src="https://github.com/jasonvictor1/MFA-cloud-security/blob/main/screenshots/enable%20MFA%20for%20the%20user.png" width="50%" />
 
-   ![Enable MFA](path-to-enable-MFA-for-the-user.png)
+7. **Configuration**
+   - Complete the configuration.
 
-3. **Confirmation**
+   <img src="https://github.com/jasonvictor1/MFA-cloud-security/blob/main/screenshots/update%20successful%20message%20for%20the%20user.png" width="50%" />
+
+8. **Confirmation Success**
    - Ensure that MFA is now enabled for the account as intended.
 
-   ![Confirmation](path-to-update-successful-message-for-the-user.png)
+   <img src="https://github.com/jasonvictor1/MFA-cloud-security/blob/main/screenshots/MFA%20confirmation%20status.png" width="50%" />
 
 ## Conclusion
 
-Following these steps will help enhance the security of your Azure environment by implementing Multi-Factor Authentication for both the primary account holder and for individual users within Azure Active Directory.
+Following these steps will help enhance the security of your Azure environment by implementing Multi-Factor Authentication for both the primary account holder and for individual users within Microsoft Entra ID.
+
 
